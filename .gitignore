@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment & local variables
+.env
+.env.local
+
+# Build output
+dist/
+build/
+
+# Uploads & processing artifacts
+server/uploads/videos/*
+!server/uploads/videos/.gitkeep
+server/uploads/heatmaps/*
+!server/uploads/heatmaps/.gitkeep
+server/uploads/analyzed/*
+!server/uploads/analyzed/.gitkeep
+ai-service/outputs/*
+!ai-service/outputs/.gitkeep
+ai-service/videos/*
+!ai-service/videos/.gitkeep
+
+# Model weights (Trained YOLO weights to be added locally)
+ai-service/models/*.pt
+!ai-service/models/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

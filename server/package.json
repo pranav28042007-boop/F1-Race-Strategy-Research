@@ -1,0 +1,31 @@
+{
+  "name": "f1-race-analyzer-server",
+  "version": "1.0.0",
+  "description": "Node.js Express & MongoDB backend for F1 Visual Race Intelligence System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "f1",
+    "race-analyzer",
+    "express",
+    "mongodb",
+    "computer-vision"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.1",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
